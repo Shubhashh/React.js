@@ -1,0 +1,40 @@
+.container {
+  border: 2px solid black;
+  background-color: powderblue; 
+  color:navy;
+}
+.head{
+  font-size: 50px;
+  text-align:center;
+  border:2px dashed grey;
+  background-color: white;
+}
+
+
+.para {
+   font-size: 30px;
+   text-align: center;
+  border:2px dashed grey;
+  background-color:white;
+  color:red;
+}
+
+
+.center-img {
+  border:solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 350px;
+}
+.samplePicture {
+  border-style: double;
+  border: solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 350px;
+}
+
