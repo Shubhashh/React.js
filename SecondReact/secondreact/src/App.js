@@ -4,7 +4,7 @@ import FirstComp from './FirstComp';
 import SecondCopm from './SecondCopm';
 import ThirdCopm from './ThirdCopm';
 import FourthComp from './FourthComp';
-import ClickEvent from './ClickEvent';
+
 
 
 
