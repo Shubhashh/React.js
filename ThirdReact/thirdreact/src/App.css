@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+ 
+  padding: 200px 200px;
+  border: 5px solid black;
+  background-color:powderblue;
 }
 .button {
   padding: 16px 32px;       
@@ -16,6 +19,12 @@
   background-color: lightgrey;
   
     margin-left: 10px; 
+  }
+
+  .login{
+    background-color: white;
+ 
+    
   }
    
 
