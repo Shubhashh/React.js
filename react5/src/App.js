@@ -1,18 +1,16 @@
 import './App.css';
-import ClickEvent from './ClickEvent';
+
+import { BrowserRouter,Routes,Route,Link} from 'react-router-dom';
 import Home from './Home'
 import Login from './Login'
 import About from './About'
 import Contact from './Contact'
-import { BrowserRouter,Routes,Route,Link } from 'react-router-dom';
-
-
 
 function Header(){
   return(
   <ul>
-    <li><Link to="/"> Default </Link></li><br/>
-  <li> <Link to="/home"> Home</Link></li><br/>
+    
+  <li> <Link to="/"> Home</Link></li><br/>
 
   <li> <Link to="/login">Login in </Link></li><br/>
 
@@ -25,27 +23,25 @@ function Header(){
   )
 }
 
+
 function App() {
   return (
     <div className="App">
-      
-      
-
+    
 <BrowserRouter>
-
+      
 <Routes>
+<Route path="/" element={<App/>}/>
+<Route path="/home" element={<Home/>}/>
 
-<Route path="/" element={<ClickEvent/>}/>
- <Route path="/home" element={<Home/>} />
-<Route path="/about" element={<About/>} />
-<Route path="/login" element={<Login/>} />
-<Route path="/contact" element={<Contact/>} />
+<Route path="/login" element={<Login/>}/>
+<Route path="/about" element={<About/>}/>
+
+<Route path="/contact" element={<Contact/>}/>
 
 </Routes>
 <Header/>
-</BrowserRouter>
-
-
+      </BrowserRouter>
     </div>
   );
 }
