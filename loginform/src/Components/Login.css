@@ -1,0 +1,11 @@
+
+.submit_btn{
+    padding: 15px 30px;
+    margin-top: 10px;
+    background: black;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: "Inter";
+    border-radius: 3px;
+}
