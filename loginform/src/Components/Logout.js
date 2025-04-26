@@ -23,6 +23,7 @@ const handleLogout=(e)=>{
   return (
     <div>
 <h1> Welcome <span className='user_name'>{user.name}</span>!</h1>
+<p >{user.email}</p>
 <button className='logout_btn' onClick={(e)=>handleLogout(e)}>Logout</button>
 
     </div>

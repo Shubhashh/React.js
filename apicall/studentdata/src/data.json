@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Ravi",
+      "place": "Hyderabad",
+      "phone": "123456789"
+    },
+    {
+      "id": "2",
+      "name": "Kiran",
+      "place": "Benguluru",
+      "phone": "987654321"
+    },
+    {
+      "id": "3",
+      "name": "Mukesh",
+      "place": "Chennai",
+      "phone": "7793954893"
+    },
+    {
+      "id": "4",
+      "name": "Ramesh",
+      "place": "Delhi",
+      "phone": "7793954893"
+    }
+  ]
+}

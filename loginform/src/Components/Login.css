@@ -9,3 +9,6 @@
     font-family: "Inter";
     border-radius: 3px;
 }
+.text{
+    text-decoration: underline;
+}
