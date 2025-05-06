@@ -38,11 +38,11 @@ return(
 <h2>Student Records</h2>
 <div className="table-container">
     
-    <Link to="/student/create">Add New Student</Link>
+    <Link to="/student/create"><button><span>Add New Student</span></button></Link>
     <table>
 <thead>
     <tr>
-    <th>Serial No</th>
+        <th>Serial No</th>
     <th>Name</th>
     <th>Place</th>
     <th>Phone</th>
@@ -58,9 +58,9 @@ return(
         <td>{item.place}</td>
         <td>{item.phone}</td>
         <td>
-        <button onClick={()=>{DisplayDetails(item.id)}}> View </button>
-        |<button  onClick={()=>{EditDetails(item.id)}}> Edit</button>
-        |<button onClick={()=>{RemoveDetails(item.id)}}> Delete </button>
+        <button onClick={()=>{DisplayDetails(item.id)}}> <span className="view">View</span> </button>
+        |<button  onClick={()=>{EditDetails(item.id)}}> <span className="edit">Edit</span></button>
+        |<button onClick={()=>{RemoveDetails(item.id)}}><span className="delete">Delete</span> </button>
         </td>
     </tr>)
         }

@@ -33,8 +33,9 @@ const handleSubmit=(e)=>{
     return(
 <div className="container">
 
-<h2>Add New Student</h2>
-<form onSubmit={handleSubmit}> 
+<h2><span>Add New Student</span></h2>
+
+<form onSubmit={handleSubmit} > 
 <label htmlFor="id">Id:</label>
 <input type="text" id="id"  name="id" required value={id} onChange={e=>setId(e.target.value)
 } onMouseDown={()=>setValidation(true)}/><br/>
@@ -61,10 +62,10 @@ const handleSubmit=(e)=>{
 
 <div >
 <br/>
-<button className="container">Save</button> 
+<button> Save</button>  
 
 
-<button className="container"><Link to="/">Back </Link></button>
+|<Link to="/"><button>Back</button> </Link>
 </div>
 
 </form>

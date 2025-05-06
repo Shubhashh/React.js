@@ -74,10 +74,10 @@ fetch("http://localhost:8000/students/"+studentid)
 
 <div >
 <br/>
-<button className="container">Update</button> 
+<button>Update</button> 
 
 
-<button className="container"><Link to="/">Back </Link></button>
+|<Link to="/"><button>Back</button> </Link>
 </div>
 
 </form>

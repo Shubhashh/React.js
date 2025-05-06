@@ -24,7 +24,7 @@ fetch("http://localhost:8000/students/"+studentid)
 <p><strong className="details">Phone:</strong>{studentData.phone}</p>
 </div>}
 
-<Link to="/" className="back">Back</Link>
+<Link to="/"><button>Back</button></Link>
 </div>
 
     )}
